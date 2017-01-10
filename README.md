@@ -3,10 +3,10 @@ processFiles
 
 This library helps you process files, especially for command-line programs.  It accepts a filename or an `Array` of filenames and will read the files sequentially.  When the content loads for a file, your callback will be called.  Has built-in support for reading from stdin, both when passed no files to load and when passed "-", per many Unix/Linux commands.
 
-[![NPM][npm-image]][NPM]
-[![Build Status][travis-image]][Travis CI]
-[![Dependencies][dependencies-image]][Dependencies]
-[![Dev Dependencies][devdependencies-image]][Dev Dependencies]
+[![npm version][npm-badge]][npm-link]
+[![Build Status][travis-badge]][travis-link]
+[![Dependencies][dependencies-badge]][dependencies-link]
+[![Dev Dependencies][devdependencies-badge]][devdependencies-link]
 
 
 Usage
@@ -158,11 +158,12 @@ License
 
 This software is licensed under an [MIT license with an additional non-advertising clause](LICENSE.md).
 
-[Dev Dependencies]: https://david-dm.org/tests-always-included/process-files#info=devDependencies
-[devdependencies-image]: https://david-dm.org/tests-always-included/process-files/dev-status.png
-[Dependencies]: https://david-dm.org/tests-always-included/process-files
-[dependencies-image]: https://david-dm.org/tests-always-included/process-files.png
-[NPM]: https://npmjs.org/package/process-files
-[npm-image]: https://nodei.co/npm/process-files.png?downloads=true&stars=true
-[travis-image]: https://secure.travis-ci.org/tests-always-included/process-files.png
-[Travis CI]: http://travis-ci.org/tests-always-included/process-files
+[dependencies-badge]: https://img.shields.io/david/tests-always-included/process-files.svg
+[dependencies-link]: https://david-dm.org/tests-always-included/process-files
+[devdependencies-badge]: https://img.shields.io/david/dev/tests-always-included/process-files.svg
+[devdependencies-link]: https://david-dm.org/tests-always-included/process-files#info=devDependencies
+[LICENSE]: LICENSE.md
+[npm-badge]: https://img.shields.io/npm/v/process-files.svg
+[npm-link]: https://npmjs.org/package/process-files
+[travis-badge]: https://img.shields.io/travis/tests-always-included/process-files/master.svg
+[travis-link]: http://travis-ci.org/tests-always-included/process-files
