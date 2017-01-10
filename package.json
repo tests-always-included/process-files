@@ -1,6 +1,6 @@
 {
     "name": "process-files",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "description": "Read files and process the contents",
     "author": "Tyler Akins <fidian@rumkin.com>",
     "homepage": "https://github.com/tests-always-included/process-files",
